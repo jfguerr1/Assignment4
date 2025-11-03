@@ -1,0 +1,125 @@
+<!-- I decided on making the nearest airport selection only an international/major airport rather than smaller ones -->
+<?xml version="1.0" endoing="UTF-8">
+<Hotels xmlns:xsi"http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+    <Hotel Rating="4.3">
+        <Name>The Westin Tempe</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor">
+            <Number>11</Number>
+            <Street>E 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</State>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.6">
+        <Name>Fairmont Scottsdale Princess</Name>
+        <Phone>480-585-4848</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor">
+            <Number>7575</Number>
+            <Street>E Princess Dr</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85255</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel Rating="4.6">
+        <Name>The Ritz-Carlton, New York</Name>
+        <Phone>212-308-9100</Phone>
+        <Address NearestAirport="LaGuardia Airport">
+            <Number>50</Number>
+            <Street>Central Park S</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10019</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>The Ritz-Carlton, Marina del Rey</Name>
+        <Phone>310-823-1700</Phone>
+        <Address NearestAirport="Los Angeles Internatonal Airport">
+            <Number>4375</Number>
+            <Street>Admiralty Way</Street>
+            <City>Marina Del Rey</City>
+            <State>CA</State>
+            <Zip>90292</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Hyatt Regency Coral Gables</Name>
+        <Phone>305-441-1234</Phone>
+        <Address NearestAirport="Miami International Airport">
+            <Number>50</Number>
+            <Street>Alhambra Plaza</Street>
+            <City>Coral Gables</City>
+            <State>FL</State>
+            <Zip>33134</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.7">
+        <Name>Waldorf Astoria Chciago</Name>
+        <Phone>312-646-1300</Phone>
+        <Address NearestAirport="Chicago O'Hare">
+            <Number>11</Number>
+            <Street>E Walton St</Street>
+            <City>Chicago</City>
+            <State>IL</State>
+            <Zip>60611</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.5">
+        <Name>Four Seasons Hotel Minneapolis</Name>
+        <Phone>612-895-5700</Phone>
+        <Address NearestAirport="Minneapolis-Saint Paul International Airport">
+            <Number>245</Number>
+            <Street>Hennepin Ave</Street>
+            <City>Minneapolis</City>
+            <State>MN</State>
+            <Zip>55401</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Four Seasons Hotel Houston</Name>
+        <Phone>713-650-1300</Phone>
+        <Address NearestAirport="George Bush Intercontinental Aiport">
+            <Number>1300</Number>
+            <Street>Lamar St</Street>
+            <City>Houston</City>
+            <State>TX</State>
+            <Zip>77010</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.6">
+        <Name>The Kahala Hotel and Resort</Name>
+        <Phone>808-369-9471</Phone>
+        <Address NearestAirport="Daniel K. Inouye International Airport">
+            <Number>5000</Number>
+            <Street>Kahala Ave</Street>
+            <City>Honolulu</City>
+            <State>HI</State>
+            <Zip>96816</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.7">
+        <Name>The Ritz-Carlton Dallas, Las Colinas</Name>
+        <Phone>972-717-0700</Phone>
+        <Address NearestAirport="Dallas/Fort Worth International Airport">
+            <Number>4150</Number>
+            <Street>N MacArthur Blvd</Street>
+            <City>Irving</City>
+            <State>TX</State>
+            <Zip>75038</Zip>
+        </Address>
+    </Hotel>
