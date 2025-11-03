@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- I decided on making the nearest airport selection only an international/major airport rather than smaller ones -->
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<!-- root element is Hotel instead of Hotels -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="Hotels.xsd">
 <!-- example hotel -->
     <Hotel Rating="4.3">
@@ -15,12 +16,13 @@
             <Zip>85281</Zip>
         </Address>
     </Hotel>
-<!-- extra phone number -->
+
     <Hotel Rating="4.6">
         <Name>Fairmont Scottsdale Princess</Name>
         <Phone>480-585-4848</Phone>
         <Phone>480-585-4849</Phone>
-        <Address NearestAirport="Phoenix Sky Harbor">
+        <!-- missing required attribute -->
+        <Address>
             <Number>7575</Number>
             <Street>E Princess Dr</Street>
             <City>Scottsdale</City>
@@ -28,10 +30,9 @@
             <Zip>85255</Zip>
         </Address>
     </Hotel>
-    
+    <!-- missing phone attribute -->
     <Hotel Rating="4.6">
         <Name>The Ritz-Carlton, New York</Name>
-        <Phone>212-308-9100</Phone>
         <Address NearestAirport="LaGuardia Airport">
             <Number>50</Number>
             <Street>Central Park S</Street>
@@ -40,7 +41,7 @@
             <Zip>10019</Zip>
         </Address>
     </Hotel>
-<!-- no rating hotels -->
+
     <Hotel>
         <Name>The Ritz-Carlton, Marina del Rey</Name>
         <Phone>310-823-1700</Phone>
@@ -52,7 +53,7 @@
             <Zip>90292</Zip>
         </Address>
     </Hotel>
-
+<!-- missing address ending tag -->
     <Hotel>
         <Name>Hyatt Regency Coral Gables</Name>
         <Phone>305-441-1234</Phone>
@@ -62,9 +63,9 @@
             <City>Coral Gables</City>
             <State>FL</State>
             <Zip>33134</Zip>
-        </Address>
+        
     </Hotel>
-<!-- extra phone number -->
+
     <Hotel Rating="4.7">
         <Name>Waldorf Astoria Chicago</Name>
         <Phone>312-646-1300</Phone>
@@ -77,9 +78,10 @@
             <Zip>60611</Zip>
         </Address>
     </Hotel>
-
+<!-- extra name -->
     <Hotel Rating="4.5">
         <Name>Four Seasons Hotel Minneapolis</Name>
+        <Name>Four Seasons Inn</Name>
         <Phone>612-895-5700</Phone>
         <Address NearestAirport="Minneapolis-Saint Paul International Airport">
             <Number>245</Number>
@@ -89,7 +91,7 @@
             <Zip>55401</Zip>
         </Address>
     </Hotel>
-<!-- no rating hotel -->
+
     <Hotel>
         <Name>Four Seasons Hotel Houston</Name>
         <Phone>713-650-1300</Phone>
@@ -125,7 +127,7 @@
             <Zip>75038</Zip>
         </Address>
     </Hotel>
-<!-- extra number -->
+
     <Hotel Rating="4.7">
         <Name>Four Seasons Hotel Seattle</Name>
         <Phone>206-749-7000</Phone>
@@ -139,4 +141,4 @@
         </Address>
     </Hotel>
 
-</Hotels>
+</Hotel>
